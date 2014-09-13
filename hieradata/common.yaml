@@ -1,0 +1,9 @@
+classes:
+ - apt
+apt::sources:
+  'cassandra':
+    release: '21x'
+    repos: 'main'
+    location: 'http://www.apache.org/dist/cassandra/debian'
+    key: '2B5C1B00'
+    key_server: 'pgp.mit.edu'
